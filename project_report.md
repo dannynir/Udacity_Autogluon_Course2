@@ -31,15 +31,18 @@ Find the parameters specific to 'WeightedEnsemble_L3' and understand the intuiti
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: Replace the image below with your own.
+
 
 ![model_train_score.png](model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-TODO: Replace the image below with your own.
+
 
 ![model_test_score.png](model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+Hence Autogluon was explored as way of automatically fitting ML models to training dataset and test it with validation data
+EDA was important to make sure features are engineering correctly and to create new features
+Same model with better feature engineerng yielded 43% improvemen
+Autogluon had ways to tune the parameters and chose the best model
