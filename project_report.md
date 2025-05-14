@@ -3,7 +3,7 @@ Nirmal Chandrasingh
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-The main realization was how the predictions could not have negative values, since they denote the count variable. Hence I floored them by 0 to make sure that is the lowest value to provide meanngful predictions
+The main realization was how the predictions could not have negative values, since they denote the count variable. Hence I floored them by 0 to make sure that is the lowest value to provide meanigful predictions
 
 ### What was the top ranked model that performed?
 When it comes to rank based on RMSE surprisingly the model with extra features (but no parameter tuning) was the best with a RMSE of 30.22. It was surprising to see it get a lower kaggle score than the parameter tuned model which had a RMSE of 38.55
